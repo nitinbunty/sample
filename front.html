@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8"/>
+  
+    <link rel="stylesheet" href="ff.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Home</title>   
+    <link rel = "icon" href="https://img.icons8.com/ios/100/000000/home.png" type = "image/x-icon"> 
+    
+ </head>
+
+
+<body>
+    <h1 id="tag1"></h1>
+    <div class="wrapper">
+        <div class="contact-form">
+            <div class="input-fields">
+                      <div class="btn" onclick="add()"> <i class="material-icons" >person_add</i>Create Account</div>
+                      <div class="btn" onclick="sear()"><i class="material-icons" >search</i>Search user</div>
+                      <div class="btn" onclick="del()"><i class="material-icons" >delete</i>Delete user</div>
+                      <div  class="btn" onclick="see()"> <i style="margin-top: 23%;font-size: 30px;" class="material-icons" >people</i>Users</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function add()
+        {
+            window.location="add";
+        }
+        function see()
+        {
+            window.location="see";
+        }
+        function del()
+        {
+            window.location="del";
+        }
+        function sear()
+        {
+            window.location="sear";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+#tag1   
+{
+    
+   
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    color: black;
+    position: fixed;
+}
+body{
+  background: url('bg.jpg') no-repeat top center ;
+  background-size: cover;
+  height: 100vh;
+}
+
+ 
+.wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+ 
+.contact-form{
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+ 
+ 
+.input-fields .input,
+textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+ 
+ 
+
+ 
+.btn {
+    margin-top: 15px;
+    background: black;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-25%);
+    padding: 15px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.btn:hover
+{
+   
+    background: linear-gradient(to right, orange, purple);
+    color: black;
+}
+
+.radio
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.sx
+{
+    color: #c5ecfd;
+    text-align:justify;
+}
+
